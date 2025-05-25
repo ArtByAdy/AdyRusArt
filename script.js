@@ -12,7 +12,8 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         painting_type: paintingType,
         client_email: email,
         order_number: orderNumber,
-        email: email
+        email: email,
+        title: "Cerere pictură" //adăugat
     };
 
     emailjs.send('service.vudhtiy', 'template_jlf5b0e', templateParams)
